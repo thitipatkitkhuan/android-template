@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">android-template</string>
+    <string name="txt_full_app_name">android-template</string>
+    <string name="txt_app_version_format">Version %1$s</string>
+    <string name="txt_app_version_unset">Version 0&#46;0&#46;0</string>
+    <string name="txt_loading">Loading</string>
+</resources>
