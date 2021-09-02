@@ -43,4 +43,5 @@
     <string name="txt_scan_ok">Success</string>
     <string name="txt_warning">Warning</string>
     <string name="txt_yes">Yes</string>
+    <string name="txt_settings">Settings</string>
 </resources>
