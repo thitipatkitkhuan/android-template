@@ -1,2 +1,2 @@
-include ':default'
+include ':app'
 rootProject.name = "android-template"

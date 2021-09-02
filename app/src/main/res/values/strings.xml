@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">android-template</string>
+    <string name="txt_full_app_name">android-template</string>
+    <string name="txt_app_version_format">Version %1$s</string>
+    <string name="txt_developed_by_sato_auto_id_thailand">Developed by SATO Auto-ID (Thailand)</string>
+    <string name="txt_app_version_unset">Version 0&#46;0&#46;0</string>
+
+    <string name="header_config">Server config</string>
+    <string name="title_server">Server</string>
+    <string name="title_port">Port</string>
+    <string name="title_database">Database</string>
+    <string name="title_user">User</string>
+    <string name="title_password">Password</string>
+    <string name="title_timeout">Timeout</string>
+
+    <string name="txt_key_server">key_server</string>
+    <string name="txt_key_port">key_port</string>
+    <string name="txt_key_database">key_database</string>
+    <string name="txt_key_user">key_user</string>
+    <string name="txt_key_password">key_password</string>
+    <string name="txt_key_timeout">key_timeout</string>
+
+    <string name="txt_is_success">IsSuccess</string>
+    <string name="txt_is_message">IsMessage</string>
+    <string name="txt_false_result">Not found result!</string>
+    <string name="txt_exception">Exception:&#160;</string>
+
+    <string name="txt_please_scan_barcode">Please scan barcode</string>
+
+    <string name="txt_loading">Loading</string>
+    <string name="txt_test">Test</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_successful">Successful</string>
+    <string name="txt_failed">Failed</string>
+    <string name="txt_scan">Scan</string>
+    <string name="txt_scan_barcode">Scan Barcode</string>
+    <string name="txt_kanban">Kanban</string>
+    <string name="txt_tag">Tag</string>
+    <string name="txt_color">Color</string>
+    <string name="txt_clear">Clear</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_error">Error</string>
+    <string name="txt_scan_ok">Success</string>
+    <string name="txt_warning">Warning</string>
+    <string name="txt_yes">Yes</string>
+</resources>

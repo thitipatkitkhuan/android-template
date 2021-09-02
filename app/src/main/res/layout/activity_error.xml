@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        style="@style/TextLarge.White.Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_error"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        style="@style/TextMedium.White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        style="@style/InputPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/title_password"
+        android:inputType="textPassword"
+        android:text="0000"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/ic_baseline_backspace_24"
+        android:text="@string/txt_back"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+</LinearLayout>
