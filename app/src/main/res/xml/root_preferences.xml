@@ -1,45 +1,58 @@
 <androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <PreferenceCategory app:title="@string/header_config">
+    <PreferenceCategory
+        android:layout="@layout/layout_preference_title"
+        app:title="@string/header_config">
 
         <EditTextPreference
-            app:defaultValue="192.168.0.181"
+            android:layout="@layout/layout_preference_edt"
+            app:defaultValue="127.0.0.1"
+            app:icon="@drawable/ic_outline_dns_24"
             app:key="@string/txt_key_server"
             app:title="@string/title_server"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
+            android:layout="@layout/layout_preference_edt"
             app:defaultValue="1433"
+            app:icon="@drawable/ic_outline_settings_input_component_24"
             app:key="@string/txt_key_port"
             app:title="@string/title_port"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
-            app:defaultValue="SWMS_STARRICH"
+            android:layout="@layout/layout_preference_edt"
+            app:defaultValue="Database"
+            app:icon="@drawable/ic_baseline_storage_24"
             app:key="@string/txt_key_database"
             app:title="@string/title_database"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
+            android:layout="@layout/layout_preference_edt"
             app:defaultValue="sa"
+            app:icon="@drawable/ic_baseline_account_box_24"
             app:key="@string/txt_key_user"
             app:title="@string/title_user"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
-            app:defaultValue="sato12345"
+            android:layout="@layout/layout_preference_edt"
+            app:defaultValue="12345"
+            app:icon="@drawable/ic_baseline_key_24"
             app:key="@string/txt_key_password"
             app:title="@string/title_password"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
-            app:defaultValue="1"
-            app:key="@string/txt_key_timeout"
             android:inputType="textPassword"
+            android:layout="@layout/layout_preference_edt"
+            app:defaultValue="1"
+            app:icon="@drawable/ic_baseline_access_time_24"
+            app:key="@string/txt_key_timeout"
             app:title="@string/title_timeout"
             app:useSimpleSummaryProvider="true" />
-
     </PreferenceCategory>
-
 </androidx.preference.PreferenceScreen>
